@@ -1,0 +1,26 @@
+.featuredBlock{
+    margin-top: 20px;
+    display: flex;
+    max-width:1024px;
+    justify-content: space-between;
+}
+.featureImg{
+width:180px;
+height:120px;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+}
+.picDesc{
+    
+    bottom:15px;
+    left: 15px;
+    color: black;
+
+}
+.picDesc>h2{
+    font-size: 20px;
+}
+.picDesc>h3{
+    font-size: 12px;
+    color: rgb(90, 90, 90);
+}

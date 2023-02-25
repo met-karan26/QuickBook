@@ -1,0 +1,90 @@
+.containerBlock{
+    display: flex;
+    margin:auto;
+    max-width: 1024px;
+    
+}
+.searchBlock>h2{
+    font: 1.12em sans-serif;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.containerSearch{  
+    margin: 10px 10px 5px 10px;
+    background-color: orange;
+    width:20vw;
+    padding: 5px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+  
+}
+.searchBlock{
+    font-weight: 600;
+    padding: 12px 10px ;  
+   
+}
+.block{
+    margin: 2px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+label{
+    font-size:15px;
+}
+.block>input{
+    padding:10px 2px;
+}
+.block>span{
+    background-color: white;
+    margin-bottom: 10px;
+    padding:8px 5px;
+    font-size: 16px;
+    color: gray;
+    gap:30px
+}
+.daterange{
+    z-index: 2;
+    position: absolute;
+   box-shadow: 4px 4px  rgba(175, 175, 171, 0.752);
+   overflow-y: visible;
+}
+input{
+    border: none;
+}
+
+.block.last{
+    margin:12px 0px;
+}
+
+.filters{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.filters>input{
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    padding:2px 5px;
+    font-size: 12px;
+
+}
+.filters>span{
+    font-size: 12px;
+}
+.searchbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  margin: 25px auto 8px;
+    font:0.8rem sans-serif;
+    width: 200px;
+    height:40px;
+    color: white;
+    background-color:rgb(1, 1, 100);
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,152 @@
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    
+}
+@keyframes examples {
+    0%{transform: translateY(0px)}
+    50%{transform: translateY(-27px)}
+    100%{transform: translateY(-55px)}
+}
+.baground{
+    z-index:500;
+    position:absolute;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.layer-1{
+    top:0;
+    left:0;
+    position:fixed;
+    z-index:500;
+    background-color:rgba(0,0,0, 0.426);
+    width:100%;
+    height:100%;
+    display:flex;
+   
+    justify-content:center;
+    align-items: center;
+}
+.register{
+    background-color: white;
+    
+    display: flex;
+    top:0;
+    left:0;
+    margin:auto;
+    width:28vw;
+    height:70vh;
+    position: sticky;
+    list-style: none;
+    border-radius: 15px;
+    padding:10px auto;
+    
+}
+.top-header{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    padding:auto;
+    margin: 20px 0;
+}
+
+
+
+
+.xmark{
+    position: absolute;
+    margin: 2px 0;
+    padding: 2px;
+    top:10px;
+    right:12px;
+    color:black;
+    cursor: pointer;
+   z-index: 2;
+    font-size: 18px;
+}
+.xmark:hover{
+    color:rgb(72, 103, 255);
+   
+}
+.signUp{
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    margin: 20px 0;
+    align-items: center;
+    font-weight: 700;
+    font-family:monospace;
+}
+.inner-container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    height:75%;
+
+}
+.tagline{
+    
+    width: 100%;
+    height:25px;
+    
+}
+.tagline p{
+    text-align: center;
+    font-size: 13px;
+    padding: 5px 0;
+    font-weight: 600;
+    color:rgb(1, 1, 100);
+   
+}
+/* .tag2{
+    animation: examples 2s ease-in 600s infinite forwards;
+} */
+
+.inputField{
+    
+    width:100%;
+    height:60%;
+    padding:10px 0;
+    display: flex;
+  left:0;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    position: absolute;
+    
+}
+
+.inputField input{
+    margin: 10px 0;
+    width: 80%;
+    border:1px solid gray;
+    border-radius: 5px;
+    padding:8px 5px;
+    font-size: 16px;
+    
+}
+.btn{
+    background-color:rgb(1, 1, 100);
+    color: white;
+    font-weight: 600;
+    border: 0;
+    cursor: pointer;
+}
+.policy{
+    color:gray;
+    font-size: 12px;
+    position: absolute;
+    bottom:20px;
+}
+a{
+    color: rgb(72, 103, 255);
+    text-decoration: none;
+}

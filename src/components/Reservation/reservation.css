@@ -1,0 +1,100 @@
+  @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.reserve{
+    background-color: white;
+    display: flex;
+    top:0;
+    left:0;
+    margin:auto;
+    width:32vw;
+    height:72vh;
+    position: sticky;
+    list-style: none;
+    padding:10px auto;
+    flex-direction: column;
+   
+}
+.room{
+    position: absolute;
+    width:90%;
+    font-size: 22px;
+    font-weight: 500;
+    display: block;
+    margin: 10px;
+   
+}
+.roomType{
+    font-size: 20px;
+    font-weight: 500;
+    margin:20px 0 10px 0;
+}
+.roomblock{
+    
+    width:82%;
+    height:80%;
+    margin: auto;
+}
+.category{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.top-header{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    padding:auto;
+    margin: 20px 0;
+}
+.checkboxes{
+    display: flex;
+}
+.icon p{
+    font-size: 12px;
+    text-align: center;
+   color:gray;
+   margin-right: 2px;
+}
+.group1{
+    width: fit-content;
+   
+}
+.box{
+    
+    background-color: whitesmoke;
+    border: 1px solid gray ;
+    border-radius: 2px;
+    width:15px;
+    height: 15px;
+    cursor: pointer;
+}
+.box2{
+    background-color:blue;
+    border: 1px solid gray ;
+    border-radius: 2px;
+    width:15px;
+    height: 15px;
+    cursor: pointer;
+}
+.now{
+    position:absolute;
+    background-color:blue;
+    width:80%;
+    font-size:18px;
+    color:white;
+    font-weight:500;
+    bottom:10px;
+    left:36px;
+    padding:5px 0;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+
+

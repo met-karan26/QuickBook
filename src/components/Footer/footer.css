@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: auto;
+    color: blue;
+    font-size:15px;
+    padding-top:20px;
+    height: 300px;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-bottom: 10px;
+}

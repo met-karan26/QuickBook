@@ -1,0 +1,41 @@
+.mailBlock{
+    background-color: rgb(1, 1, 100);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+.mail{
+    width:15rem;
+    height:45px;
+    border-radius: 3px;
+    border: none;
+    padding: 0 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight:100;
+}
+
+.subscribe{
+    background-color: rgb(72, 103, 255);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 100;
+}
+.taglines{
+    line-height: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: wheat;
+    font-size: 15px;
+}
+.taglines>p{
+    font-size: 23px;
+    color: white;
+}
